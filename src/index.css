@@ -1,0 +1,211 @@
+/* Nav Bar */
+.navbar-icon {
+    width: 24px;
+    margin: 8px 20px;
+}
+
+.no-style-button {
+    background: none;
+    border: 0;
+    color: inherit;
+    /* cursor: default; */
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+}
+
+.user-login {
+    color: white;
+}
+
+/* Catalogue */
+.catalogue-container {
+    display: flex;
+    padding: 2%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.catalogue-card {
+    background-color: #111;
+    padding: 3%;
+    margin: 15px;
+    width: calc(33.33% - 40px);
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+.catalogue-card>img {
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.check {
+    background-color: white;
+    color: #111;
+    font-weight: bold;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
+
+.card-text {
+    margin-bottom: 8%;
+}
+
+@media screen and (max-width: 768px) {
+    .catalogue-card {
+        padding: 20px;
+        margin: 20px;
+        width: 100%;
+    }
+}
+
+/* Contact */
+.title {
+    text-align: center;
+    margin: 60px 0 0 0;
+}
+
+.contact-form {
+    border-radius: 30px;
+    width: 60%;
+    padding: 4%;
+}
+
+.form-control {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.input-field,
+.contact-action {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.contact-action {
+    background-color: #111;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+/* About */
+.profile {
+    background-color: #111;
+    color: white;
+    min-height: 450px;
+    text-align: center;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.photo {
+    width: 300px;
+    height: 295px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.hero-principal h2 {
+    font-size: 1.1rem;
+}
+
+.presentation {
+    padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .presentation {
+        padding-top: 85px;
+    }
+}
+
+.social-media-container {
+    background-color: #111;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 25px;
+}
+
+.social-media-container a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.social-media-container i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.social-media-container a:hover {
+    background-color: white;
+    border: 2px solid #111;
+}
+
+.social-media-container a:hover i {
+    color: black;
+}
+
+.thanks {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Footer */
+.bd-footer,
+.navbar {
+    background-color: #111;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+}
+
+.small>li {
+    text-align: start;
+}
+
+ul>li {
+    color: gray;
+    text-align: center;
+}
+
+li>a {
+    text-decoration: none;
+    color: gray;
+}
+
+a>span {
+    color: white;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1439px) {
+    .music-corp {
+        text-align: center;
+        margin: 0 20px;
+    }
+}
