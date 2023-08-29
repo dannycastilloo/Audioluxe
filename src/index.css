@@ -1,4 +1,8 @@
 /* Nav Bar */
+.navbar-brand, .nav-item {
+    padding: 0 15px;
+}
+
 .navbar-icon {
     width: 24px;
     margin: 8px 20px;
@@ -54,14 +58,6 @@
 
 .card-text {
     margin-bottom: 8%;
-}
-
-@media screen and (max-width: 768px) {
-    .catalogue-card {
-        padding: 20px;
-        margin: 20px;
-        width: 100%;
-    }
 }
 
 /* Contact */
@@ -125,12 +121,6 @@
 
 .presentation {
     padding-top: 30px;
-}
-
-@media screen and (min-width: 768px) {
-    .presentation {
-        padding-top: 85px;
-    }
 }
 
 .social-media-container {
@@ -203,9 +193,23 @@ a>span {
     padding-left: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .catalogue-card {
+        padding: 20px;
+        margin: 20px;
+        width: 100%;
+    }
+    .presentation {
+        padding-top: 85px;
+    }
+}
+
 @media screen and (max-width: 1439px) {
     .music-corp {
         text-align: center;
         margin: 0 20px;
+    }
+    .navbar-brand, .nav-item {
+        padding: 0;
     }
 }
