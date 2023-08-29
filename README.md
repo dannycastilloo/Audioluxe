@@ -7,6 +7,9 @@
 ## About
 ![Captura de pantalla 2023-08-27 122920](https://github.com/dannycastilloo/Music-Shop/assets/76531494/5af42c7f-3d00-43fa-8a5a-5d68e9025f8e)
 
+## Figma
+![Captura de pantalla 2023-08-29 162239](https://github.com/dannycastilloo/Music-Shop/assets/76531494/f94c10c6-469a-4734-ab71-4b6117b643fd)
+
 ## Description
 This is a web application that allows users to buy instruments, contact me and see my info.
 
