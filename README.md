@@ -9,6 +9,7 @@
 
 ## Figma
 ![Captura de pantalla 2023-08-29 162239](https://github.com/dannycastilloo/Music-Shop/assets/76531494/f94c10c6-469a-4734-ab71-4b6117b643fd)
+Link: https://www.figma.com/file/6IReBVRlS79NP9q9UvYKOE/Music-Shop?type=design&node-id=0%3A1&mode=design&t=w6KhWNG2eP0xc2Nk-1 
 
 ## Description
 This is a web application that allows users to buy instruments, contact me and see my info.
