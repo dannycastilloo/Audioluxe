@@ -7,7 +7,7 @@ export const About = () => {
                 <div className="container hero-principal d-flex flex-column justify-content-center align-items-center">
                     <div className="row">
                         <div className="col">
-                            <img className="photo" src="../src/assets/danny.jpg" alt="Foto de Danny Castillo"/>
+                            <img className="photo" src="/danny.jpg" alt="Foto de Danny Castillo"/>
                         </div>
                         <div className="col presentation">
                             <h1>Hi, I'm Danny Castillo!</h1><br />

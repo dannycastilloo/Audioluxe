@@ -40,6 +40,9 @@
     border-radius: 25px;
     border: none;
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .catalogue-card>img {
@@ -51,13 +54,45 @@
     background-color: white;
     color: #111;
     font-weight: bold;
-    position: absolute;
-    right: 10%;
-    bottom: 5%;
 }
 
 .card-text {
-    margin-bottom: 8%;
+    margin: 20px 0 30px 0;
+}
+
+/* Cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px 150px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px rgba(213, 213, 213, 0.5);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card > img {
+    width: 150px;
+}
+
+.card-price {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.card-body > a {
+    width: 100%;
 }
 
 /* Contact */

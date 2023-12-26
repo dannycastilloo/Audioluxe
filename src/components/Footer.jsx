@@ -6,7 +6,7 @@ export const Footer = () => {
                     <div className="row">
                         <div className="col-lg-3 mb-3 music-corp">
                             <a className="d-inline-flex align-items-center mb-2 link-dark text-decoration-none" aria-label="Bootstrap">
-                                <img src="../src/assets/logo.png" alt="Music Shop" width="35"/>
+                                <img src="/logo.png" alt="Music Shop" width="35"/>
                                     <span className="fs-5">Music Shop</span>
                             </a>
                             <ul className="list-unstyled small">

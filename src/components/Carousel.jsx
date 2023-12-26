@@ -5,13 +5,13 @@ export const Carousel = () => {
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="../src/assets/01.jpg" className="d-block w-100" alt="Carousel item 1"/>
+              <img src="/slider/01.jpg" className="d-block w-100" alt="Carousel item 1"/>
             </div>
             <div className="carousel-item">
-              <img src="../src/assets/02.jpg" className="d-block w-100" alt="Carousel item 2"/>
+              <img src="/slider/02.jpg" className="d-block w-100" alt="Carousel item 2"/>
             </div>
             <div className="carousel-item">
-              <img src="../src/assets/03.jpg" className="d-block w-100" alt="Carousel item 3"/>
+              <img src="/slider/03.jpg" className="d-block w-100" alt="Carousel item 3"/>
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

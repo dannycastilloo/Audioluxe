@@ -27,12 +27,12 @@ export const NavBar = () => {
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
                                 <button className="no-style-button">
-                                    <img className="navbar-icon" src="../src/assets/shopping-cart.png" alt="Shopping cart" />
+                                    <img className="navbar-icon" src="/shopping-cart.png" alt="Shopping cart" />
                                 </button>
                             </li>
                             <li className="nav-item">
                                 <button className="no-style-button">
-                                    <img className="navbar-icon" src="../src/assets/user.png" alt="User" />
+                                    <img className="navbar-icon" src="/user.png" alt="User" />
                                     <span className="user-login">Log in</span>
                                 </button>
                             </li>
